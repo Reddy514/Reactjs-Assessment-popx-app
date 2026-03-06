@@ -4,7 +4,7 @@ export default function Layout({ children }) {
     return (
         <Box
             sx={{
-                minHeight: "100vh",
+                minHeight: "95vh",
                 display: "flex",
                 justifyContent: "center",
                 alignItems: "center",
@@ -14,7 +14,7 @@ export default function Layout({ children }) {
             <Box
                 sx={{
                     width: 425,
-                    minHeight: "100vh",
+                    minHeight: "95vh",
                     bgcolor: "background.paper",
                     px: 3,
                     py: 2,
