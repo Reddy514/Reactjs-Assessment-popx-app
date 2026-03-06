@@ -24,7 +24,7 @@ const isFormValid = form.email.trim() !== "" && form.password.trim() !== "" && f
  return (
         <Box
             sx={{
-                minHeight: "100vh",
+                minHeight: "95vh",
                 display: "flex",
                 flexDirection: "column"
             }}
